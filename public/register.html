@@ -1,5 +1,4 @@
 <html>
-
 <head>
   <title>KodeBugan</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +10,7 @@
 <body>
   <div class="container">
     <div class="form-container">
-      <h1>Login</h1>
+      <h1>Register</h1>      
 
       <form class="form" action="auth" method="POST">
         <div class="form__field">
@@ -19,15 +18,12 @@
           <input id="username" type="text" name="username" class="form__input" required>
         </div>
 
-        <div class="form__field">
-          <label for="password" class="form__label">Password</label>
-          <input id="password" type="password" name="password" class="form__input" required>
-        </div>
+        <div class="form__field"><label for="password" class="form__label">Password</label><input id="password" type="password" name="password" class="form__input" required></div>
 
-        <input type="submit" class="form__button" value="Login">
+        <input type="submit" class="form__button" value="Register">
 
         <div class="form__alt">
-          <a href="/register">Register</a>
+          <a href="/">Back to login</a>
         </div>
       </form>
     </div>    
